@@ -2,7 +2,7 @@
 
 /*--box sizing--*/
 
-html {
+html{
   box-sizing: border-box;
 }
 *,
@@ -14,5 +14,51 @@ html {
 /*--Global Styles--*/
 
 body{
-    
+font-family: "Inter", sans-serif;
+margin:0;
 }
+
+header.primary{
+  background-color:#EAAB55;
+  text-align:center;
+  text-shadow: 0.5px 1px #ffffff;
+  /*Single value short hand*/
+  padding:40px;
+  /*T,R,B,L*/
+  padding:20px 40px 28px 40px;
+  /*Two Value Top/Bottom*/
+  padding: 20px 40px
+}
+
+header.primary h1{
+  font-size:2.4rem;
+}
+
+
+header.primary h1 a{
+  color:#000000;
+  text-decoration:none;
+  margin: 20px 0 0 0;
+}
+
+header.primary h2{
+  color:#000000;
+  font-size: 1.4rem;
+  letter-spacing:2px;
+  margin: 10px 0 0;
+}
+
+header.primary nav ul{
+padding:0px;
+}
+
+header.primary nav ul li{
+list-style-type:none;
+}
+
+header.primary nav ul a{
+  
+}
+
+
+
