@@ -88,6 +88,82 @@ header.primary nav a:hover{
   background-color:rgba(0,0,0,.8);
 }
 
+#intro h2{
+  color:#EAAB55;
+  border-bottom:1px dotted #54B1Eb;
+}
+
+#content{
+display:flex;
+flex-direction:row;
+justify-content:center;
+gap:14px;
+}
+
+#content .post{
+  box-shadow: 0 4px 8px rgba(0,0,0,.4);
+  padding:10px;
+  font-size:.8rem;
+}
+
+
+#content .post figure{
+  margin:0px;
+}
+
+#content time.post-date, #content figcaption{
+  text-transform:uppercase;
+  font-size: .8rem;
+}
+#content a{
+  color:#EAAB55;
+  transition:.4s;
+}
+
+#content a:hover{
+  text-decoration:none;
+}
+
+aside[role="complementary"]{
+  background-color: #172635;
+  color:#ffffff;
+  padding:40px 0;
+}
+
+aside .container{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  gap:40px;
+}
+
+aside .container a{
+  color:#ffffff;
+}
+
+aside .container a:hover{
+  text-decoration:none;
+}
+
+aside .container a:last-child{
+  display:block;
+  text-align:right;
+  margin-top:20px;
+}
+
+
+aside .widget footer{
+  display:none;
+}
+
+#colophon{ 
+  background-color: #54B1EB;
+  padding: 1px;
+  text-align:center;
+  font-weight: bold;
+  color:#ffffff
+}
+
 /* Media Quaries */
 @media screen and (max-width: 530px){
 
