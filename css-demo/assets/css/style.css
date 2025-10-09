@@ -19,6 +19,20 @@ html{
   margin:20px auto;
 }
 
+.img-right{
+  float:right;
+  margin: 10px 0 10px 20px;
+  border: 1px solid #54B1Eb;
+  padding:10px;
+}
+
+.img-center{
+  display:block;
+  margin: 20px auto;
+  border: 1px solid #54B1Eb;
+  padding:10px;
+}
+
 /*--Responsive Images--*/
 
 img{max-width:100%;
@@ -92,12 +106,52 @@ header.primary nav a:hover{
   color:#EAAB55;
   border-bottom:1px dotted #54B1Eb;
 }
+#practice h3{
+border-left:7.5px solid #54B1EB;
+padding-left:7.5px;
+}
+
+#practice table{
+width:100%;
+border:1px solid #54B1EB;
+border-collapse:collapse;
+}
+#practice caption{
+  font-weight:bold;
+  font-size:1.3rem;
+  margin:10px;
+}
+
+#practice tr:nth-child(even){
+  background-color: rgba(0,0,0,0.15);
+}
+#practice tr:hover{
+  Background-color: rgba(0,0,0,0.3)
+}
+#practice td:nth-child(1n+2){
+  text-align:right;
+}
+#practice th{
+  background-color:#172635;
+  color: #EAAB55;
+  padding: 9px;
+}
+#practice td{
+  border:1.5px solid #54B1EB;
+  padding:6px;
+}
+
+
 
 #content{
 display:flex;
 flex-direction:row;
 justify-content:center;
 gap:14px;
+border-top: 1px solid #688496;
+border-bottom: 1px solid #688496;
+padding: 40px 0;
+margin: 30px auto 30px auto; 
 }
 
 #content .post{
@@ -123,6 +177,22 @@ gap:14px;
 #content a:hover{
   text-decoration:none;
 }
+
+#practice h2{
+  color:#EAAB55;
+  border-bottom: 1px dotted #54B1EB;
+}
+
+#practice a{
+  color:#54B1EB;
+}
+
+#practice a:hover{
+  text-decoration:none;
+}
+
+
+
 
 aside[role="complementary"]{
   background-color: #172635;
