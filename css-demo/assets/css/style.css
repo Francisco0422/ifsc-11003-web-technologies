@@ -141,6 +141,31 @@ border-collapse:collapse;
   padding:6px;
 }
 
+#practice ol{
+  list-style-type:lower-roman;
+}
+#practice ul ul{
+  color:red;
+}
+#practice dt{
+  font-weight:bold;
+}
+dd+dt {
+  margin-top:20px
+}
+#practice dd{
+  margin-left:0;
+}
+
+#practice blockquote cite{
+  display:block;
+  font-size:.7rem;
+  text-align:right;
+  margin-top:20px;
+}
+
+
+
 
 
 #content{
@@ -251,5 +276,8 @@ header.primary nav ul a{
   margin:20px auto;
 }
 
-
+#content{
+  flex-direction:column;
 }
+}
+
