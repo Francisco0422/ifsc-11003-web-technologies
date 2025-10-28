@@ -32,26 +32,41 @@
       gap: 20px;
       max-width: 80vw;
       margin: 20px auto;
-      grid-template-columns: 1fr 3fr;
+      grid-template-columns:3fr 1fr;
     }
     header.primary{
-      grid-area: 1 / 1 / 2 / 3;
+      grid-column-start:1;
+      grid-column-end:3;
+      grid-row-start:1;
+      grid-row-end:2;
     }
     #content{
      grid-column-start: 1;
-     grid-column-end: 3;
+     grid-column-end:2;
      grid-row-start: 2;
      grid-row-end: 3;
     }
     #blog{
-      grid-area: 3 / 1 / 4 / 3;
+      grid-column-start: 1;
+      grid-column-end:2;
+      grid-row-start:3;
+      grid-row-end:4;
+
+     
     }
     aside{ 
-      grid-area: 2 / 3 / 4 / 3;
+      grid-column-start:2;
+      grid-column-end:3;
+      grid-row-start:2;
+      grid-row-end:4;
+     
     }
   
     footer.primary{
-      grid-area: 4 / 1 / 5 /3
+      grid-column-start:1;
+      grid-column-end:3;
+      grid-row-start:4;
+      grid-row-end:5;
     }
 
 
